@@ -1,0 +1,2 @@
+# Replays are binary files; never change their line endings.
+*.SCFAReplay binary
