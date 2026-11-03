@@ -2,6 +2,9 @@
 name = "scfa-replay-pause-eraser"
 version = "0.1.0"
 edition = "2024"
+description = "Removes pauses from Supreme Commander: Forged Alliance replays"
+license = "Unlicense"
 
+# No dependencies. The replay reader in src/replay.rs is planned to be
+# replaced by the faf-replay-parser crate once it can be tested.
 [dependencies]
-faf-replay-parser = "0.6.0"
